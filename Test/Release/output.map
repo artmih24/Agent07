@@ -1,0 +1,136 @@
+Archive member included because of file (symbol)
+
+C:\Users\user\workspace\Test\mc12101lib_nm.a(MC12101_SYNC.o)
+                              main.o (_ncl_hostSync)
+C:\Users\user\workspace\Test\libint_6407.a(clock.elf)
+                              main.o (_clock)
+/cygdrive/c/Program Files/Module/NMCGCC-SDK/nmc4-ide/lib/gcc/nmc/4.8.3/nmc4-float/libgcc.a(ftoi32.o)
+                              main.o (ConvFtoI32)
+/cygdrive/c/Program Files/Module/NMCGCC-SDK/nmc4-ide/lib/gcc/nmc/4.8.3/nmc4-float/libgcc.a(lsh32.o)
+                              /cygdrive/c/Program Files/Module/NMCGCC-SDK/nmc4-ide/lib/gcc/nmc/4.8.3/nmc4-float/libgcc.a(ftoi32.o) (LShift32)
+/cygdrive/c/Program Files/Module/NMCGCC-SDK/nmc4-ide/lib/gcc/nmc/4.8.3/nmc4-float/libgcc.a(mod32.o)
+                              main.o (IMod32)
+/cygdrive/c/Program Files/Module/NMCGCC-SDK/nmc4-ide/lib/gcc/nmc/4.8.3/nmc4-float/libgcc.a(mul32.o)
+                              main.o (Mul32)
+/cygdrive/c/Program Files/Module/NMCGCC-SDK/nmc4-ide/lib/gcc/nmc/4.8.3/nmc4-float/libgcc.a(rsh32.o)
+                              /cygdrive/c/Program Files/Module/NMCGCC-SDK/nmc4-ide/lib/gcc/nmc/4.8.3/nmc4-float/libgcc.a(ftoi32.o) (RShift32)
+/cygdrive/c/Program Files/Module/NMCGCC-SDK/nmc4-ide/lib/gcc/nmc/4.8.3/nmc4-float/libgcc.a(fp_flags.o)
+                              /cygdrive/c/Program Files/Module/NMCGCC-SDK/nmc4-ide/lib/gcc/nmc/4.8.3/nmc4-float/libgcc.a(ftoi32.o) (FPIEEE_Signal)
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+DDR0             0x0000000020000000 0x0000000000000400
+SHMEM_SYNC       0x00000000000a8000 0x0000000000000040
+SHMEM            0x00000000000a8040 0x0000000000017fc0
+P1_IMU0          0x0000000000080400 0x0000000000007c00
+P1_IMU1          0x0000000000088000 0x0000000000008000
+P1_IMU2          0x0000000000090000 0x0000000000008000
+P1_IMU3          0x0000000000098000 0x0000000000008000
+P0_IMU0          0x0000000000000400 0x0000000000007c00
+P0_IMU1          0x0000000000008000 0x0000000000008000
+P0_IMU2          0x0000000000050000 0x0000000000008000
+P0_IMU3          0x0000000000058000 0x0000000000008000
+P0_IMU4          0x0000000000060000 0x0000000000008000
+P0_IMU5          0x0000000000068000 0x0000000000008000
+P0_IMU6          0x0000000000070000 0x0000000000008000
+P0_IMU7          0x0000000000078000 0x0000000000008000
+*default*        0x0000000000000000 0x3fffffffffffffff
+
+Linker script and memory map
+
+LOAD /cygdrive/c/Program Files/Module/NMCGCC-SDK/nmc4-ide/lib/gcc/nmc/4.8.3/../../../../nmc/lib/nmc4-float/crt0.o
+LOAD /cygdrive/c/Program Files/Module/NMCGCC-SDK/nmc4-ide/lib/gcc/nmc/4.8.3/../../../../nmc/lib/nmc4-float/crti.o
+LOAD main.o
+LOAD kernels07.o
+LOAD C:\Users\user\workspace\Test\mc12101lib_nm.a
+LOAD C:\Users\user\workspace\Test\libint_6407.a
+LOAD /cygdrive/c/Program Files/Module/NMCGCC-SDK/nmc4-ide/lib/gcc/nmc/4.8.3/../../../../nmc/lib/nmc4-float/libstdc++.a
+LOAD /cygdrive/c/Program Files/Module/NMCGCC-SDK/nmc4-ide/lib/gcc/nmc/4.8.3/../../../../nmc/lib/nmc4-float/libm.a
+LOAD /cygdrive/c/Program Files/Module/NMCGCC-SDK/nmc4-ide/lib/gcc/nmc/4.8.3/nmc4-float/libgcc.a
+LOAD /cygdrive/c/Program Files/Module/NMCGCC-SDK/nmc4-ide/lib/gcc/nmc/4.8.3/../../../../nmc/lib/nmc4-float/libsemihost.a
+LOAD /cygdrive/c/Program Files/Module/NMCGCC-SDK/nmc4-ide/lib/gcc/nmc/4.8.3/../../../../nmc/lib/nmc4-float/libc.a
+LOAD /cygdrive/c/Program Files/Module/NMCGCC-SDK/nmc4-ide/lib/gcc/nmc/4.8.3/nmc4-float/libgcc.a
+LOAD /cygdrive/c/Program Files/Module/NMCGCC-SDK/nmc4-ide/lib/gcc/nmc/4.8.3/../../../../nmc/lib/nmc4-float/libsemihost.a
+LOAD /cygdrive/c/Program Files/Module/NMCGCC-SDK/nmc4-ide/lib/gcc/nmc/4.8.3/../../../../nmc/lib/nmc4-float/crtn.o
+                0x0000000000000000                . = ALIGN (0x1)
+
+.ddr0_data
+ *(.ddr0_data)
+                0x0000000000000000                . = ALIGN (0x1)
+
+.stack          0x0000000000008000     0x4000
+ *(.stack)
+ .stack         0x0000000000008000     0x4000 /cygdrive/c/Program Files/Module/NMCGCC-SDK/nmc4-ide/lib/gcc/nmc/4.8.3/../../../../nmc/lib/nmc4-float/crt0.o
+                0x000000000000c000                . = ALIGN (0x1)
+
+.text           0x0000000000000400      0x6b6
+ *(.text)
+ .text          0x0000000000000400       0x58 /cygdrive/c/Program Files/Module/NMCGCC-SDK/nmc4-ide/lib/gcc/nmc/4.8.3/../../../../nmc/lib/nmc4-float/crt0.o
+                0x000000000000040a                loadStackAddr
+                0x000000000000040c                start
+                0x0000000000000416                _sync
+                0x0000000000000432                _exit
+                0x0000000000000438                __exit
+                0x0000000000000446                stop
+ .text          0x0000000000000458      0x2b2 main.o
+                0x0000000000000458                __Z9DoConv1x1PfS_S_S_iiii
+                0x0000000000000660                __Z7t07_dwcv
+                0x00000000000006f4                __main
+ .text          0x000000000000070a      0x13e kernels07.o
+                0x000000000000070a                ctor
+                0x000000000000070a                dtor
+                0x000000000000070e                _halt
+                0x0000000000000712                _Conv1x1
+ .text          0x0000000000000848       0x6e C:\Users\user\workspace\Test\mc12101lib_nm.a(MC12101_SYNC.o)
+                0x0000000000000848                _ncl_hostSync
+                0x0000000000000872                _ncl_hostSyncArray
+ .text          0x00000000000008b6        0xe C:\Users\user\workspace\Test\libint_6407.a(clock.elf)
+                0x00000000000008b6                clock_initialize
+                0x00000000000008c0                _clock
+ .text          0x00000000000008c4       0x56 /cygdrive/c/Program Files/Module/NMCGCC-SDK/nmc4-ide/lib/gcc/nmc/4.8.3/nmc4-float/libgcc.a(ftoi32.o)
+                0x00000000000008c4                ConvFtoI32
+ .text          0x000000000000091a       0x8c /cygdrive/c/Program Files/Module/NMCGCC-SDK/nmc4-ide/lib/gcc/nmc/4.8.3/nmc4-float/libgcc.a(lsh32.o)
+                0x000000000000091a                LShift32
+ .text          0x00000000000009a6       0x62 /cygdrive/c/Program Files/Module/NMCGCC-SDK/nmc4-ide/lib/gcc/nmc/4.8.3/nmc4-float/libgcc.a(mod32.o)
+                0x00000000000009a6                UMod32
+                0x00000000000009d2                IMod32
+ .text          0x0000000000000a08       0x1a /cygdrive/c/Program Files/Module/NMCGCC-SDK/nmc4-ide/lib/gcc/nmc/4.8.3/nmc4-float/libgcc.a(mul32.o)
+                0x0000000000000a08                Mul32
+ .text          0x0000000000000a22       0x8c /cygdrive/c/Program Files/Module/NMCGCC-SDK/nmc4-ide/lib/gcc/nmc/4.8.3/nmc4-float/libgcc.a(rsh32.o)
+                0x0000000000000a22                RShift32
+ .text          0x0000000000000aae        0x8 /cygdrive/c/Program Files/Module/NMCGCC-SDK/nmc4-ide/lib/gcc/nmc/4.8.3/nmc4-float/libgcc.a(fp_flags.o)
+                0x0000000000000aae                FPIEEE_Signal
+                0x0000000000000ab6                . = ALIGN (0x1)
+
+.data
+ *(.data)
+
+.data_asm       0x000000000000c000        0x2
+ .data_asm      0x000000000000c000        0x2 /cygdrive/c/Program Files/Module/NMCGCC-SDK/nmc4-ide/lib/gcc/nmc/4.8.3/nmc4-float/libgcc.a(fp_flags.o)
+                0x000000000000c000                __FPIEEE_Flags
+                0x000000000000c001                __FPIEEE_RoundMode
+                0x000000000000c002                . = ALIGN (0x1)
+
+.bss
+ *(.bss)
+                0x000000000000c002                . = ALIGN (0x1)
+
+.init           0x0000000000000ab6        0x8
+ *(.init)
+ .init          0x0000000000000ab6        0x0 /cygdrive/c/Program Files/Module/NMCGCC-SDK/nmc4-ide/lib/gcc/nmc/4.8.3/../../../../nmc/lib/nmc4-float/crti.o
+                0x0000000000000ab6                _init
+ .init          0x0000000000000ab6        0x4 C:\Users\user\workspace\Test\libint_6407.a(clock.elf)
+ .init          0x0000000000000aba        0x4 /cygdrive/c/Program Files/Module/NMCGCC-SDK/nmc4-ide/lib/gcc/nmc/4.8.3/../../../../nmc/lib/nmc4-float/crtn.o
+                0x0000000000000abe                . = ALIGN (0x1)
+
+.fini           0x0000000000000abe        0x4
+ *(.fini)
+ .fini          0x0000000000000abe        0x0 /cygdrive/c/Program Files/Module/NMCGCC-SDK/nmc4-ide/lib/gcc/nmc/4.8.3/../../../../nmc/lib/nmc4-float/crti.o
+                0x0000000000000abe                _fini
+ .fini          0x0000000000000abe        0x4 /cygdrive/c/Program Files/Module/NMCGCC-SDK/nmc4-ide/lib/gcc/nmc/4.8.3/../../../../nmc/lib/nmc4-float/crtn.o
+                0x0000000000000ac2                . = ALIGN (0x1)
+
+.nmsync
+ *(.nmsync)
+OUTPUT(Test elf32-nmc)
