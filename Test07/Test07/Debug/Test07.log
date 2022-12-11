@@ -1,0 +1,17 @@
+﻿main.obj : error LNK2019: ссылка на неразрешенный внешний символ __imp__PL_CloseBoardDesc в функции "public: void __thiscall NMBoard::Release(void)" (?Release@NMBoard@@QAEXXZ)
+nm_board.obj : error LNK2001: неразрешенный внешний символ "__imp__PL_CloseBoardDesc"
+main.obj : error LNK2019: ссылка на неразрешенный внешний символ __imp__PL_CloseAccess в функции "public: void __thiscall NMBoard::Release(void)" (?Release@NMBoard@@QAEXXZ)
+nm_board.obj : error LNK2001: неразрешенный внешний символ "__imp__PL_CloseAccess"
+nm_board.obj : error LNK2019: ссылка на неразрешенный внешний символ __imp__PL_GetBoardCount в функции "public: int __thiscall NMBoard::Reset(unsigned int)" (?Reset@NMBoard@@QAEHI@Z)
+nm_board.obj : error LNK2019: ссылка на неразрешенный внешний символ __imp__PL_GetBoardDesc в функции "public: int __thiscall NMBoard::Reset(unsigned int)" (?Reset@NMBoard@@QAEHI@Z)
+nm_board.obj : error LNK2019: ссылка на неразрешенный внешний символ __imp__PL_ResetBoard в функции "public: int __thiscall NMBoard::Reset(unsigned int)" (?Reset@NMBoard@@QAEHI@Z)
+nm_board.obj : error LNK2019: ссылка на неразрешенный внешний символ __imp__PL_LoadInitCode в функции "public: int __thiscall NMBoard::Load(unsigned int,unsigned int,char const *,char const *)" (?Load@NMBoard@@QAEHIIPBD0@Z)
+nm_board.obj : error LNK2019: ссылка на неразрешенный внешний символ __imp__PL_GetAccess в функции "public: int __thiscall NMBoard::Load(unsigned int,unsigned int,char const *,char const *)" (?Load@NMBoard@@QAEHIIPBD0@Z)
+nm_board.obj : error LNK2019: ссылка на неразрешенный внешний символ __imp__PL_LoadProgramFile в функции "public: int __thiscall NMBoard::Load(unsigned int,unsigned int,char const *,char const *)" (?Load@NMBoard@@QAEHIIPBD0@Z)
+nm_board.obj : error LNK2019: ссылка на неразрешенный внешний символ __imp__PL_ReadMemBlock в функции "public: int __thiscall NMBoard::ReadMemBlock(int,void *,unsigned long,int)" (?ReadMemBlock@NMBoard@@QAEHHPAXKH@Z)
+nm_board.obj : error LNK2019: ссылка на неразрешенный внешний символ __imp__PL_WriteMemBlock в функции "public: int __thiscall NMBoard::WriteMemBlock(int,void *,unsigned long,int)" (?WriteMemBlock@NMBoard@@QAEHHPAXKH@Z)
+nm_board.obj : error LNK2019: ссылка на неразрешенный внешний символ __imp__PL_Sync в функции "public: int __thiscall NMBoard::Sync(int,int,int *)" (?Sync@NMBoard@@QAEHHHPAH@Z)
+nm_board.obj : error LNK2019: ссылка на неразрешенный внешний символ __imp__PL_SyncArray в функции "public: int __thiscall NMBoard::SyncArray(int,int,unsigned long,unsigned long,int *,unsigned long *,unsigned long *)" (?SyncArray@NMBoard@@QAEHHHKKPAHPAK1@Z)
+nm_board.obj : error LNK2019: ссылка на неразрешенный внешний символ __imp__PL_SetTimeout в функции "public: int __thiscall NMBoard::Load(unsigned int,unsigned int,char const *,char const *)" (?Load@NMBoard@@QAEHIIPBD0@Z)
+mc12101load.lib : warning LNK4272: тип компьютера библиотеки "x64" конфликтует с типом целевого компьютера "x86"
+E:\VisualStudioProjects\Test07\Debug\Test07.exe : fatal error LNK1120: неразрешенных внешних элементов: 13
